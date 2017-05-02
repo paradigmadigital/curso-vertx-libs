@@ -237,6 +237,10 @@ public abstract class RestAPIVerticle extends BaseMicroserviceVerticle {
 		return resultVoidHandler(context, result, 200);
 	}
 
+	protected void resultBody(RoutingContext context, JsonObject result, int status) {
+		context.response().setStatusCode(status == 0 ? 200 : status).putHeader("content-type", CONTENT_TYPE_JSON).end(result.encodePrettily());
+	}
+
 	/**
 	 * This method generates handler for async methods in REST APIs. The result is not needed. Only the state of the async result is required.
 	 *
