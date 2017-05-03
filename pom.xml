@@ -10,7 +10,7 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>microservice-blueprint-common</module>
+    <module>microservice-lib-common</module>
   </modules>
 
   <properties>

@@ -10,7 +10,7 @@
     <version>3.4.1</version>
   </parent>
 
-  <artifactId>microservice-blueprint-common</artifactId>
+  <artifactId>microservice-lib-common</artifactId>
 
   <dependencies>
     <dependency>
