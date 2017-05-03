@@ -30,7 +30,7 @@ import io.vertx.ext.web.sstore.LocalSessionStore;
 public abstract class RestAPIVerticle extends BaseMicroserviceVerticle {
 
 	/** Content type */
-	private static final String CONTENT_TYPE_JSON = MediaType.JSON_UTF_8.toString();
+	protected static final String CONTENT_TYPE_JSON = MediaType.JSON_UTF_8.toString();
 
 	/**
 	 * Create http server for the REST service.
