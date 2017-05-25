@@ -12,7 +12,6 @@
 
 	
   <artifactId>microservice-lib-common</artifactId>
-  <version>3.4.2-SNAPSHOT</version>	
 	
   <build>
   	<!-- <finalName>${project.artifactId}-${project.version}-fat.jar</finalName> -->
