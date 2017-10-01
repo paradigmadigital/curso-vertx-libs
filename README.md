@@ -17,7 +17,7 @@ La fuente original la podéis encontrar [aquí](http://www.sczyh30.com/vertx-blu
 #### **Ejecución**
 --------
 
->Se debe de ejecutar la construcción e instalación de esta librería ya que los ejemplos hacen uso de ella.
+>Se debe ejecutar la construcción e instalación de esta librería ya que los ejemplos hacen uso de ella.
 
 ```
  mvn clean install 
